@@ -1,8 +1,8 @@
 <script setup></script>
 <template>
-  <div class="app-container">
+  <main>
     <RouterView />
-  </div>
+  </main>
 </template>
 <style scoped>
 .app-container {

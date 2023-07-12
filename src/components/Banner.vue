@@ -4,32 +4,31 @@
   <section class="section">
     <div
       id="carouselExampleInterval"
-      class="carousel slide overflow-hidden object-cover"
-      style="height: 250px"
+      class="carousel slide overflow-hidden object-cover banner"
       data-bs-ride="carousel"
     >
       <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="10000">
           <img
-            src="https://cdn.pixabay.com/photo/2023/06/26/02/57/man-8088588_640.jpg"
-            class="d-block w-100"
-            style="object-fit: cover; height: 250px"
+            src="../assets/images/banner-new.png"
+            class="d-block w-100 banner"
+            style="object-fit: cover"
             alt="..."
           />
         </div>
         <div class="carousel-item" data-bs-interval="10000">
           <img
-            src="https://cdn.pixabay.com/photo/2023/06/16/13/30/md500-8068034_1280.jpg"
-            class="d-block w-100"
-            style="object-fit: cover; height: 250px"
+            src="../assets/images/banner-new.png"
+            class="d-block w-100 banner"
+            style="object-fit: cover"
             alt="..."
           />
         </div>
         <div class="carousel-item">
           <img
-            src="https://cdn.pixabay.com/photo/2023/06/18/04/57/crimson-collared-tanager-8071235_640.jpg"
-            class="d-block w-100"
-            style="object-fit: cover; height: 250px"
+            src="../assets/images/banner-new.png"
+            class="d-block w-100 banner"
+            style="object-fit: cover"
             alt="..."
           />
         </div>
@@ -55,3 +54,14 @@
     </div>
   </section>
 </template>
+<style scoped>
+.banner {
+  height: 250px;
+}
+
+@media (min-width: 992px) {
+  .banner {
+    height: 400px;
+  }
+}
+</style>
